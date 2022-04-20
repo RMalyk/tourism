@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Georgia';
+	src: url(../fonts/Georgia.woff),
+		url(../fonts/Georgia.woff2);
+}
+
+body {
+	width: 100%;
+	font-family: 'Georgia';
+}
+
+.container {
+	max-width: 1920px;
+	margin: 0 230px;
+}

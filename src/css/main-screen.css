@@ -1,0 +1,58 @@
+.main {
+	margin-bottom: 71px;
+}
+
+.main_slider {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.swiper-slide::before {
+	content: "";
+	background-color: rgb(22, 20, 20);
+	opacity: 0.38;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main_slider-img {
+	width: 100%;
+	/* height: 100%; */
+}
+
+.main_slider-description {
+	position: absolute;
+	color: #fff;
+	max-width: 1080px;
+	height: 220px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.page__title {
+	font-size: 49px;
+	text-transform: uppercase;
+	line-height: 1.2em;
+	margin-bottom: 30px;
+}
+
+.page__text {
+	font-size: 27px;
+	line-height: 42px;
+}
+
+
+.main_slider .swiper-pagination {
+	bottom: 8%;
+}
+
+.main_slider .swiper-pagination .swiper-pagination-bullet-active {
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+}

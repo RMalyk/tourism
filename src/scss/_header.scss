@@ -51,12 +51,7 @@
 	align-items: center;
 }
 
-.menu__top-item,
-.menu__bottom-item {
-	cursor: pointer;
-}
-
-.menu__top-item+.menu__top-item {
+.menu__top-list li+li {
 	margin-left: 42px;
 }
 

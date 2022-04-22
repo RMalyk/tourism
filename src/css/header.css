@@ -69,6 +69,15 @@
 	position: relative;
 }
 
+.menu__contact-item svg {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+/* 
 .menu__contact-item::after {
 	position: absolute;
 	content: "";
@@ -77,5 +86,6 @@
 	width: 15px;
 	height: 15px;
 	background-color: #fff;
+	background-image: url(../images/social/icons/skype.svg);
 	transform: translateY(-50%);
-}
+} */

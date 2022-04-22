@@ -14,6 +14,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	width: 100%;
 }
 
 .footer::before {
@@ -44,11 +45,12 @@
 	height: 310px;
 	font-size: 17px;
 	line-height: 29px;
+	flex: 0 0 33%;
 }
 
 .foter__wrapper:nth-child(1) {
 	padding: 50px;
-	padding-left: 120px;
+	padding-left: 7%;
 	padding-top: 37px;
 }
 
@@ -56,7 +58,7 @@
 	padding-top: 39px;
 	padding-right: 50px;
 	padding-bottom: 50px;
-	padding-left: 95px;
+	padding-left: 6%;
 	line-height: 22px;
 }
 
@@ -82,6 +84,8 @@
 	margin-top: 5px;
 	border-top: 1px solid rgba(255, 255, 255, 0.13);
 	padding-top: 24px;
+	display: flex;
+	/* margin-right: -40px; */
 }
 
 .director-photo {

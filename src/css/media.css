@@ -1,0 +1,23 @@
+@media (max-width: 1550px) {
+	.container {
+		padding: 0 100px;
+	}
+
+	.menu__contact-item+.menu__contact-item {
+		margin-left: 30px;
+	}
+
+	.foter__wrapper:nth-child(2) {
+		padding-right: 5px;
+	}
+
+	.foter__wrapper:nth-child(2) {
+		padding-left: 4%;
+	}
+}
+
+@media (max-width: 1350px) {
+	.foter__wrapper:nth-child(2) {
+    padding-left: 3%;
+}
+}

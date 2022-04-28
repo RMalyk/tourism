@@ -77,6 +77,14 @@
 .footer__contact-item {
 	padding-left: 41px;
 	margin-bottom: 16px;
+	position: relative;
+}
+.footer__contact-item svg {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
 }
 
 .director {
@@ -85,7 +93,6 @@
 	border-top: 1px solid rgba(255, 255, 255, 0.13);
 	padding-top: 24px;
 	display: flex;
-	/* margin-right: -40px; */
 }
 
 .director-photo {
